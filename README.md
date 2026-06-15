@@ -9,10 +9,9 @@ I am a Software Development Engineer in Test with 10+ years of experience buildi
 | Layer | Tools |
 |---|---|
 | UI Automation | Playwright (TypeScript), Selenium WebDriver (C#) |
-| API Testing | xUnit + HttpClient (C#), k6 (JavaScript) |
-| Frameworks | .NET 10, Node.js |
-| Assertions | FluentAssertions, Playwright `expect` |
-| CI/CD | GitHub Actions |
+| API Testing | Postman, ReadyAPI, HttpClient (C#), k6 (JavaScript) |
+| Frameworks | Node.js, .NET |
+| CI/CD | Azure DevOps, GitHub Actions, Argo CD |
 | Design Patterns | Page Object Model, Custom Fixtures, Layered Architecture |
 
 ---
