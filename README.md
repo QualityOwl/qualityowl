@@ -1,16 +1,31 @@
-## Hi there 👋
+## Hi, my name is Josh
 
-<!--
-**QualityOwl/qualityowl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a Software Development Engineer in Test with 10+ years of experience building scalable test automation frameworks across UI, API, and performance layers.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Tech Stack
+
+| Layer | Tools |
+|---|---|
+| UI Automation | Playwright (TypeScript), Selenium WebDriver (C#) |
+| API Testing | xUnit + HttpClient (C#), k6 (JavaScript) |
+| Frameworks | .NET 10, Node.js |
+| Assertions | FluentAssertions, Playwright `expect` |
+| CI/CD | GitHub Actions |
+| Design Patterns | Page Object Model, Custom Fixtures, Layered Architecture |
+
+---
+
+### Portfolio
+
+| Repo | What it demonstrates | CI |
+|---|---|---|
+| [demo-playwright-typescript](https://github.com/QualityOwl/demo-playwright-typescript) | End-to-end UI tests with custom fixture extensions and page object model | ![](https://github.com/QualityOwl/demo-playwright-typescript/actions/workflows/playwright.yml/badge.svg) |
+| [demo-rest-api-tests-csharp](https://github.com/QualityOwl/demo-rest-api-tests-csharp) | Functional API tests covering full CRUD, auth, and error scenarios | ![](https://github.com/QualityOwl/demo-rest-api-tests-csharp/actions/workflows/run-functional-tests.yaml/badge.svg) |
+| [demo-rest-api-tests-javascript](https://github.com/QualityOwl/demo-rest-api-tests-javascript) | k6 load and performance tests with ramp stages and threshold enforcement | ![](https://github.com/QualityOwl/demo-rest-api-tests-javascript/actions/workflows/run-performance-tests.yaml/badge.svg) |
+| [demo-selenium-webdriver-csharp](https://github.com/QualityOwl/demo-selenium-webdriver-csharp) | Selenium WebDriver framework with runners, wrappers, and xUnit | — |
+
+---
+
+📍 Oklahoma, USA &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/jangula)
