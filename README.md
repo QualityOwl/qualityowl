@@ -2,6 +2,12 @@
 
 I am a Software Development Engineer in Test with 10+ years of experience building scalable test automation frameworks across UI, API, and performance layers.
 
+My passion is helping teams deliver the highest level of quality to their end-users through shift-left testing, cross-role collaboration, and applying QA best practices at each step of the software development life cycle.
+
+Remember...
+
+*"If it is not tested, it is not working!"*
+
 ---
 
 ### Tech Stack
