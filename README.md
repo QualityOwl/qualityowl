@@ -35,7 +35,7 @@ Remember...
 
 ## How I Work
 
-**How do you approach building automation frameworks from scratch?**
+### How do you approach building automation frameworks from scratch?
 
 I start by understanding the application under test, the existing tech stack, the CI/CD pipeline, and what testing (if any) is already in place. 
 
@@ -43,13 +43,13 @@ From there, I work with product and engineering to identify the highest-risk fun
 
 Once priorities are set, I select the language and tooling that best fit the tech stack and the team's skill set. The test framework is built to be understandable, maintainable, and extensible from day one. Tests are wire into CI/CD workflows so that every deployment is validated from the beginning and not as an afterthought.
 
-**What is your strategy for deciding which test cases to automate vs. leave manual?**
+### What is your strategy for deciding which test cases to automate vs. leave manual?
 
 I ask, "Will the effort to automate this test give more than it takes?" This question gets to one of the main points of test automation, which is that not every test should be automated.
 
 Good candidates for automation are test scenarios that are repeatable, provide meaningful coverage, and have the potential to catch real bugs in production.
 
-**If the quality signal was poor prior for a release and you recommended a delay, how would you handle pressure to release anyway?**
+### If the quality signal was poor prior for a release and you recommended a delay, how would you handle pressure to release anyway?
 
 My job in that moment is to make sure decision-makers have a complete, honest picture of quality. I document all outstanding issues, communicate the risks clearly, and ensure that information is visible to stakeholders before any go/no-go decision. After that, it's a leadership call.
 
