@@ -2,7 +2,7 @@
 
 I am a Software Development Engineer in Test with 10+ years of experience building scalable test automation frameworks across UI, API, and performance layers.
 
-My passion is delivering the highest quality experiences possible to end-users through shift-left testing, cross-role collaboration, and applying QA best practices at each step of the software development life cycle.
+My passion is to deliver the highest quality experiences possible to end-users through shift-left testing, cross-role collaboration, and applying QA best practices at each step of the software development life cycle.
 
 Remember...
 
