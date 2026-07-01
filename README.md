@@ -33,7 +33,7 @@ Remember...
 
 ---
 
-## How I Work
+## Let's Talk Shop
 
 > **How do you approach building automation frameworks from scratch?**
 
@@ -53,10 +53,34 @@ Good candidates for automation are test scenarios that are repeatable, provide m
 
 <br>
 
+> **What role does automated testing play in a CI/CD workflow?**
+
+Automated testing is the quality gate inside a CI/CD pipeline. Every change triggers test runs at the unit, integration, API, and UI layers. If a test fails, the pipeline stops and the team receives fast, precise details instead of discovering bugs in Production.
+
+The key value to catch issues early on in the dev cycle. 
+
+For example, a unit test failure costs minutes to fix. The same bug found after a deployment can cost hours or even days. Adding automated testing to the CI/CD workflow builds quality into every deployment, rather than discovering bugs after the fact.
+
+<br>
+
+> **How do you resolve a flaky automated test?**
+
+The first step I take is to look at the execution history of the test and answer the following:
+- Is this test failing randomly or is there a pattern?
+- Is the test failing at the same step when it fails?
+- Is the test consistently using the same config values and test data?
+- Is there a particular agent runner being used when the failures occur?
+
+My goal is to identify dependencies that may be causing the tests flakiness.
+
+If those are good, my next step is to pull down the test and run it locally. I complete multiple test runs and try to replicate flakiness. If I am successful, I then debug through the test execution in the IDE and identify the point of failure.
+
+Once identified, I document the issue, fix the root cause, and verify the test is stable across multiple runs before closing it out.
+
+<br>
+
 > **If the quality signal was poor prior to a release and you recommended a delay, how would you handle pressure to release anyway?**
 
 My job in that moment is to make sure decision-makers have a complete, honest picture of quality. I document all outstanding issues, communicate the risks clearly, and ensure that information is visible to stakeholders before any go/no-go decision. After that, it's a leadership call.
 
 ---
-
-📍 Oklahoma, USA &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/jangula)
