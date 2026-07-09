@@ -43,7 +43,7 @@ One of our teams had worked to integrate functional test runs into their Argo CD
 
 I came in and refined the workflow from start to finish: designed test projects, updated Helm charts, built analysis templates, and secured configuration secrets. I then wrote new documentation from scratch that was clear, detailed, and accessible to everyone in the org.
 
-Over a period of six months, I onboarded over 30 dev teams and test coverage for blue/green rollouts increased by 20%. Bad deployments get caught automatically now instead of after the fact.
+Over a period of six months, I onboarded over 30 dev teams and test coverage for blue/green rollouts increased by 20%. Bad deployments are getting caught automatically now instead of seeing issues crop up after the fact.
 
 <br>
 
