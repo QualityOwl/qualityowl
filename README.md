@@ -37,11 +37,11 @@ Remember...
 
 > **What is one of your greatest achievements as a QA Engneer?**
 
-One that stands out is scaling functional test coverage across the Kubernetes platform at my organization.
+One that stands out to me is my success in scaling functional test execution across microservices at my organization.
 
-When I came in, one team had functional tests integrated into their Argo CD blue/green deployment checks for a single microservice — but the documentation was rough and no other teams had been able to adopt it.
+One of our teams had worked to integrate functional test runs into their Argo CD blue/green deployment checks for their microservice. However, the implementation was rough, the documentation was minimal and no other teams had been able to adopt it.
 
-I refined the workflow from start to finish: configuring test projects, updating Helm charts, writing analysis templates, and securing authentication secrets. Then I wrote new documentation from scratch that was detailed, clear, and accessible to everyone across the org.
+I came in and refined the workflow from start to finish: designed test projects, updated Helm charts, built analysis templates, and secured configuration secrets. I then wrote new documentation from scratch that was clear, detailed, and accessible to everyone in the org.
 
 Over a period of six months, I onboarded over 30 dev teams and test coverage for blue/green rollouts increased by 20%. Bad deployments get caught automatically now instead of after the fact.
 
