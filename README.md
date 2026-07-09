@@ -35,6 +35,18 @@ Remember...
 
 ## Let's Talk Shop
 
+> **What is one of your greatest achievements as a QA Engneer?**
+
+One that stands out is scaling functional test coverage across the Kubernetes platform at my organization.
+
+When I came in, one team had functional tests integrated into their Argo CD blue/green deployment checks for a single microservice — but the documentation was rough and no other teams had been able to adopt it.
+
+I refined the workflow from start to finish: configuring test projects, updating Helm charts, writing analysis templates, and securing authentication secrets. Then I wrote new documentation from scratch that was detailed, clear, and accessible to everyone across the org.
+
+Over a period of six months, I onboarded over 30 dev teams and test coverage for blue/green rollouts increased by 20%. Bad deployments get caught automatically now instead of after the fact.
+
+<br>
+
 > **How do you approach building automation frameworks from scratch?**
 
 I start by understanding the application under test, the existing tech stack, the CI/CD pipeline, and what testing (if any) is already in place.
